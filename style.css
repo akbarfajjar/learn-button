@@ -1,0 +1,236 @@
+button {
+  border-radius: 2px;
+  border-width: 1px;
+  cursor: pointer;
+}
+/* subscribe button */
+.subscribe{
+  background-color: rgb(177, 3, 3);
+  height: 32px;
+  width: 85px;
+  font-size: 13px;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  border-width: 2px;
+  transition: opacity 0.15s;
+}
+.subscribe:hover{
+  opacity: 0.8;
+}
+.subscribe:active{
+  opacity: 0.5;
+}
+/* folow button */
+.follow{
+  background-color: white;
+  border-style: solid;
+  border-radius: 4px;
+  height: 30px;
+  width: 58px;
+  color: black;
+  cursor:pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 12px;
+  border-width: 1px;
+  transition: background-color 0.15s;
+}
+.follow:hover{
+  background-color: rgba(46, 117, 248, 0.932);
+  color:white
+}
+.follow:active{
+  background-color: rgba(21, 99, 245, 0.945);
+  color:white
+}
+/* tweet button */
+.tweet{
+  background-color:cornflowerblue;
+  border-style: none;
+  border-radius: 15px;
+  height: 32px;
+  width: 68px;
+  color:whitesmoke;
+  cursor:pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: baackground-color 0,15s;
+}
+.tweet:hover{
+  background-color: rgb(13, 84, 236);
+}
+.tweet:active{
+  background-color: rgb(1, 67, 248);
+  color:rgba(255, 255, 255, 0.8)
+}
+
+/* uber button */
+.request-now{
+  background-color:black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 11px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer; 
+  transition: 0.155s;
+}
+.request-now:hover{
+  opacity: 0.8;
+  color:rgba(255, 255, 255, 0.8);
+}
+
+.request-now:active{
+  opacity: 0.5;
+  color:rgba(255, 255, 255, 0.8);
+}
+
+/* amazon button */
+.amazon{
+  background-color: rgba(255 216 20);
+  border-style: none;
+  border-radius: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-left: 10px;
+  border: none;
+  color: rgb(10, 10, 10);
+  transition: 0.155s;
+}
+
+.amazon:hover{
+  background-color: rgb(252, 193, 0);
+  color:rgb(0, 0, 0);
+}
+/* github button */
+.github{
+  background-color: rgb(46, 164, 79);
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+  border-width: 0.1px;
+  font: weight 800px;;
+  font-size: 12px;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 7px;
+  padding-bottom: 8px;
+  margin-top: 10px;
+  margin-right: 10px;
+  transition: 0.155s;
+  box-shadow: 1px 1px black;
+}
+
+.github:hover{
+  background-color: rgb(97, 199, 177);
+  color: rgb(255, 255, 255);
+}
+
+.github:active{
+  background-color: rgb(0, 100, 72);
+  color: rgb(255, 255, 255);
+}
+/*bootstrap */
+.bootstrap-started{
+  background-color: rgb(121, 82, 179);
+  color:white;
+  border-radius: 4px;
+  border-width: 1px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 12px;
+  margin-right: 4px;
+  font-weight: 600;
+  margin-left: 4px;
+  transition: 0.155s;
+}
+
+.bootstrap-started:hover{
+  background-color: rgb(82, 44, 121);
+  color:white;
+}
+.bootstrap-download{
+  border-color: rgb(121, 82, 179);
+  color: rgb(150, 150, 179);
+  border-radius: 4px;
+  border-width: 1px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 12px;
+  margin-right: 4px;
+  font-weight: 600;
+  transition: 0.155s;
+}
+
+.bootstrap-download:hover{
+  border-color: rgb(82, 44, 121);
+  color: rgb(255, 255, 255);
+  background-color:rgb(121, 82, 179);
+}
+/*linkedln*/
+.linkedln-apply{
+  background-color: rgb(10, 102, 194);
+  color:white;
+  border-radius: 18px;
+  border-width: 1px;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 12px;
+  margin-right: 4px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-right: 4px;
+  border-color:rgb(9, 21, 34);
+  transition: 0.155s;
+}
+
+.linkedln-apply:hover{
+  background-color: rgb(4, 50, 95);
+  color:white;
+}
+.linkedln-save{
+  background-color:white;
+  color:rgb(10, 102, 194);
+  border-radius: 18px;
+  border-width: 1px;
+  border-color:rgb(10, 102, 194);
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 12px;
+  margin-right: 4px;
+  font-weight: 600;
+  margin-top: 10px;
+  transition: 0.155s;
+}
+
+.linkedln-save:hover{
+  background-color:rgb(243, 245, 247);
+  color:rgb(10, 102, 194);
+  border-width: 1px;
+}
+
+.linkedln-save:active{
+  background-color:rgb(204, 215, 226);
+  color:rgb(2, 99, 196);
+  border-width: 1px;
+}
